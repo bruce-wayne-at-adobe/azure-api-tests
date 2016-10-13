@@ -22,7 +22,7 @@ var tags = function() {
 //     alert(x);
 // 
 
-var jcontent.tags = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+// var jcontent.tags = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 var text = "";
 var i;
 for (i = 0; i < tags.length; i++) {
