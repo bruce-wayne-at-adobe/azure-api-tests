@@ -45,7 +45,7 @@ console.log(jcontent2);
  
   for (i = 0; i < 4; i++) {
       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
-    text2.innerHTML = text.innerHTML + b;
+    text2.innerHTML = text2.innerHTML + b;
     text2.appendChild(b);
   }
 
