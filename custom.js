@@ -32,7 +32,7 @@ console.log(jcontent.tags);
 
 for (i = 0; i < 3; i++) {
     var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
-    text.innerHTML = a;
+    text.innerHTML = text.innerHTML + a;
 }
 
  //text.innerHTML = jcontent.tags[0].confidence
