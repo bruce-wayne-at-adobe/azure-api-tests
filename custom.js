@@ -8,10 +8,10 @@ var tags = function() {
 for (i = 0; i < tags.length; i++) {
 
 
- output.innerHTML = jcontent.tags 
+ output.innerHTML = jcontent
 
 }
-console.log(tags())
+
 }
 tags()
 };
