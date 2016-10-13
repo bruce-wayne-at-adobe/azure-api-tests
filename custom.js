@@ -81,7 +81,6 @@ function myFunction (name, [0]) {
  
 // }
 
-
 //  output.innerHTML = namejson
 
  tags();
