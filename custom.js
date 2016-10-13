@@ -30,8 +30,8 @@ console.log(jcontent.tags);
  
 }
 
-for (i = 0; i < jcontent.tags.length; i++) {
-    var a = "name: " + jcontent.tags[i].name + ", confidence: " + jcontent.tags[i].confidence
+for (i = 0; i < 3; i++) {
+    var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
     text.innerHTML = a;
 }
 
