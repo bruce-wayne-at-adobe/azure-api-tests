@@ -4,5 +4,14 @@ var output = document.getElementById('output');
 
 
 // output.innerHTML = jcontent.tags.name
- output.innerHTML = jcontent.tags[1].name
+function() {
+for (i = 0; i < tags.length; i++) {
+
+
+ output.innerHTML = jcontent.tags[i] 
+
+}
+
+
+}
 };
