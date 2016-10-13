@@ -31,7 +31,7 @@ for (i = 0; i < tags.length; i++) {
 }
 
 
- output.innerHTML = namejson
+ text.innerHTML = namejson
 
  tags();
 }
