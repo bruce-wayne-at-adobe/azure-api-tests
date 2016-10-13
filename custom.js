@@ -10,33 +10,33 @@ var tags = function() {
  console.log(namejson);
 
 
-tags.forEach( function (confidence)
-{
-    var x = confidence. + 2;
-    alert(x);
-});
+// tags.forEach( function (confidence)
+// {
+//     var x = confidence. + 2;
+//     alert(x);
+// });
 
-yourArray.forEach( function (arrayItem)
-{
-    var x = arrayItem.prop1 + 2;
-    alert(x);
-});
+// yourArray.forEach( function (arrayItem)
+// {
+//     var x = arrayItem.prop1 + 2;
+//     alert(x);
+// });
 
-var jcontent = [
-  { 
-    name : "Mike",
-    track: "track-a",
-    achievements: 23,
-    points : 400,
-  },
+// var jcontent = [
+//   { 
+//     name : "Mike",
+//     track: "track-a",
+//     achievements: 23,
+//     points : 400,
+//   },
 
-  { 
-    name : "james",
-    track: "track-a",
-    achievements: 2,
-    points : 21,
-  },  
-]
+//   { 
+//     name : "james",
+//     track: "track-a",
+//     achievements: 2,
+//     points : 21,
+//   },  
+// ]
 
   jcontent.forEach(myFunction);
 
@@ -86,5 +86,3 @@ function myFunction (name, 0) {
 
  tags();
 }
-
-
