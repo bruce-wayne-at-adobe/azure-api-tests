@@ -51,4 +51,4 @@ console.log(jcontent2);
 
  //text.innerHTML = jcontent.tags[0].confidence
 };
- tags();
+
