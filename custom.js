@@ -3,5 +3,5 @@ var jcontent = {"categories":[{"name":"people_","score":0.3984375,"detail":{"cel
 var output = document.getElementById('output');
 
 
-output.innerHTML = jcontent
+output.innerHTML = jcontent.tags
 };
