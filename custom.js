@@ -16,9 +16,7 @@ console.log(jcontent.tags);
 var text = "";
 var i;
 for (i = 0; i < jcontent.length; i++) {
-    text += "name: " + jcontent[i].name + ", confidence: " + jcontent[i].confidence + "<br>";
-    document.write(text);
-    console.alert(text);
+    text.innerHTML("name: " + jcontent[i].name + ", confidence: " + jcontent[i].confidence);
 }
 // document.getElementById("").innerHTML = text;
 
