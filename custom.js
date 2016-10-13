@@ -5,7 +5,7 @@ var output = document.getElementById('output');
 
 // output.innerHTML = jcontent.tags.name
 var tags = function() {
-for (i = 0; i < tags.length; i++) {
+// for (i = 0; i < tags.length; i++) {
 
 
  output.innerHTML = jcontent
