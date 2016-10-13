@@ -9,10 +9,13 @@ var tags = function() {
  console.log(confidencejson);
  console.log(namejson);
 
-
+ var str ="";
+for (tag in tags) {
+ str += tag.name + " : " + tag.confidence + "<br>";
+}
   
   
- output.innerHTML = confidencejson
+ output.innerHTML = str;
  
 }
 
