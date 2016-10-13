@@ -20,11 +20,13 @@ console.log(jcontent2);
 // document.getElementById("messages").appendChild(line);
 //  output.innerHTML = str;
 }
+ tags();
  for (i = 0; i < 3; i++) {
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
     text.innerHTML = text.innerHTML + a;
     text.appendChild(a);
   }
+ 
   for (i = 0; i < 3; i++) {
       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
     text2.innerHTML = text2.innerHTML + b;
