@@ -12,7 +12,7 @@ var tags = function() {
 
   
   
- output.innerHTML = tags
+ output.innerHTML = confidencejson
  
 }
 
