@@ -43,11 +43,11 @@ console.log(jcontent2);
 //     text.appendChild(a);
 //   }
  
-  for (i = 0; i < 3; i++) {
-      var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
-    text2.innerHTML = text2.innerHTML + b;
-    text2.appendChild(b);
-  }
+//   for (i = 0; i < 3; i++) {
+//       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
+//     text2.innerHTML = text2.innerHTML + b;
+//     text2.appendChild(b);
+//   }
 
  //text.innerHTML = jcontent.tags[0].confidence
 };
