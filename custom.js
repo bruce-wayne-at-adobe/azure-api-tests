@@ -10,8 +10,8 @@ var tags = function() {
  console.log(namejson);
 
  var str ="";
-for (tag in tags) {
- str += tag.name + " : " + tag.confidence + "<br>";
+for (jcontent.tags in tags) {
+ str += jcontent.tags.name + " : " + jcontent.tags.confidence + "<br>";
 }
   
   
