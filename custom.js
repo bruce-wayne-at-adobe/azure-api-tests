@@ -13,5 +13,5 @@ for (i = 0; i < tags.length; i++) {
 }
 
 }
-tags()
+
 };
