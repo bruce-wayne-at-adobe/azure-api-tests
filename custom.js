@@ -8,7 +8,7 @@ console.log(tagjson);
  
 
  for (i = 0; i < tags.length; i++) {
-output.innerHTML = jcontent.tags[i].each
+output.innerHTML = jcontent.tags[i]
 
  output.innerHTML = jcontent
 
