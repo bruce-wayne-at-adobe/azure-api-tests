@@ -17,6 +17,7 @@ var text = "";
 var i;
 for (i = 0; i < jcontent.length; i++) {
     text += "name: " + jcontent[i].name + ", confidence: " + jcontent[i].confidence + "<br>";
+    console.log(text);
 }
 // document.getElementById("").innerHTML = text;
 
