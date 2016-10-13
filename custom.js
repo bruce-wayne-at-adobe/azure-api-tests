@@ -79,7 +79,7 @@ var tags = function() {
   
 //  output.innerHTML = str;
  
-// }
+}
 
 //  output.innerHTML = namejson
 
