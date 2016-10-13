@@ -25,6 +25,9 @@ console.log(jcontent.tags);
 //  str += jcontent.tags.name + " : " + jcontent.tags.confidence + "<br>";
 // }
   
+//  var line = document.createElement("p");
+// line.innerHTML = "<strong>" + name + ": </strong>" + message.field_message_body.und[0].value;
+// document.getElementById("messages").appendChild(line);
   
 //  output.innerHTML = str;
  
@@ -32,7 +35,7 @@ console.log(jcontent.tags);
 
 for (i = 0; i < 3; i++) {
     var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
-    text.appendChild(a);
+    document.getElementById("output").appendChild(a);
 }
 
  //text.innerHTML = jcontent.tags[0].confidence
