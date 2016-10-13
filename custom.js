@@ -3,18 +3,18 @@ var jcontent = {"categories":[{"name":"people_","score":0.3984375,"detail":{"cel
 var output = document.getElementById('output');
 
 var tags = function() {
-var confidencejson = jcontent.tags.[0].confidence  
-var namejson = jcontent.tags.[0].name
+var confidencejson = jcontent.tags.[i].confidence  
+var namejson = jcontent.tags.[i].name
 console.log(confidencejson);
 console.log(namejson);
  
 
-//  for (i = 0; i < tags.length; i++) {
-//  output.innerHTML = jcontent.tags[i]
+ for (i = 0; i < tags.length; i++) {
+ output.innerHTML = jcontent.tags.[i]
 
- output.innerHTML = namejson
+//  output.innerHTML = namejson
 
-//   }
+ }
 
 }
 tags();
