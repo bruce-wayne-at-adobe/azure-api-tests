@@ -31,7 +31,7 @@ for (i = 0; i < confidencejson.length; i++) {
 }
 
 
- text.innerHTML = jcontent.tags
+ text.innerHTML = confidencejson.tags
 
  tags();
 }
