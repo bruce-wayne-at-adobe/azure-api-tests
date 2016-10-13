@@ -15,7 +15,7 @@ var tags = function() {
 // var jcontent.tags = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 var text = "";
 var i;
-for (i = 0; i < tags.length; i++) {
+for (i = 0; i < confidencejson.length; i++) {
     text += tags[i] + "<br>";
 }
 // document.getElementById("").innerHTML = text;
