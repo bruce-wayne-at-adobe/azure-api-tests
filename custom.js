@@ -4,5 +4,5 @@ var output = document.getElementById('output');
 
 
 // output.innerHTML = jcontent.tags.name
- output.innerHTML = jcontent[1]
+ output.innerHTML = jcontent.tags[1].name
 };
