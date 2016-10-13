@@ -13,6 +13,7 @@ var tags = function() {
  console.log(namejson);
 
 console.log(jcontent.tags);
+console.log(jcontent2);
 // tags.forEach( function (confidence)
 
 // var jcontent.tags = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
