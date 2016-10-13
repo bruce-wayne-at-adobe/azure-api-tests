@@ -10,7 +10,7 @@ console.log(namejson);
  
 
  for (i = 0; i < tags.length; i++) {
- output.innerHTML = jcontent.tags.[i]
+ output.innerHTML = jcontent.tags
 
 //  output.innerHTML = namejson
 
