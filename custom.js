@@ -5,5 +5,5 @@ var output = document.getElementById('output');
 
 output.innerHTML = jcontent.tags.name
 
-output.innerHTML = jcontent.tags.confidence
+// output.innerHTML = jcontent.tags.confidence
 };
