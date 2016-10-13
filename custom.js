@@ -5,10 +5,10 @@ var output = document.getElementById('output');
 var tags = function() {
 var tagjson = jcontent.tags
 console.log(tagjson);
- output.innerHTML = jcontent.tags[i].each
+ 
 
  for (i = 0; i < tags.length; i++) {
-
+output.innerHTML = jcontent.tags[i].each
 
  output.innerHTML = jcontent
 
