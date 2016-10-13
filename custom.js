@@ -4,14 +4,14 @@ var output = document.getElementById('output');
 
 
 // output.innerHTML = jcontent.tags.name
-var tags = function() {
+// var tags = function() {
 // for (i = 0; i < tags.length; i++) {
 
 
  output.innerHTML = jcontent
 
-}
+// }
 
-}
-tags();
+// }
+// tags();
 };
