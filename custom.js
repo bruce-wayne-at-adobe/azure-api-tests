@@ -38,14 +38,14 @@ var tags = function() {
 //   },  
 // ]
 
-  jcontent.forEach(myFunction);
+//   jcontent.forEach(myFunction);
 
-function myFunction (name, [0]) {
+// function myFunction (name, [0]) {
 
-  for( var name in jcontent ) {
-    console.log(name[name])
-  }
-}
+//   for( var name in jcontent ) {
+//     console.log(name[name])
+//   }
+// }
 // var students = [
 //   { 
 //     name : "Mike",
