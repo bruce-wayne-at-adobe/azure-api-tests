@@ -5,8 +5,8 @@ var output = document.getElementById('output');
 var tags = function() {
 // // var confidencejson = jcontent.tags.[i].confidence  
 // var namejson = jcontent.tags.[i].name
-console.log(confidencejson);
-console.log(namejson);
+// console.log(confidencejson);
+// console.log(namejson);
  
 
  for (i = 0; i < tags.length; i++) {
