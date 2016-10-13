@@ -87,7 +87,7 @@ for (i = 0; i < tags.length; i++) {
   
 //  output.innerHTML = str;
  
-// }
+}
 
 
 //  output.innerHTML = namejson
