@@ -3,7 +3,7 @@ var jcontent = {"categories":[{"name":"people_","score":0.3984375,"detail":{"cel
 var output = document.getElementById('output');
 
 var tags = function() {
-var confidencejson = jcontent.tags.[i].confidence  
+// var confidencejson = jcontent.tags.[i].confidence  
 var namejson = jcontent.tags.[i].name
 console.log(confidencejson);
 console.log(namejson);
