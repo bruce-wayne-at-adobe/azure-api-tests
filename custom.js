@@ -29,8 +29,7 @@ for (i = 0; i < jcontent.length; i++) {
 //  output.innerHTML = str;
  
 }
-script for demonstration
-setting up the github pages
+
 
 
  text.innerHTML = jcontent.tags[0].confidence
