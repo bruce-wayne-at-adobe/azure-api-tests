@@ -31,7 +31,7 @@ for (i = 0; i < jcontent.length; i++) {
 }
 
 
- text.innerHTML = jcontent.tags
+ text.innerHTML = jcontent.tags[0].name
 
  tags();
 }
