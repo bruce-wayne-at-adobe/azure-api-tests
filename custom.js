@@ -16,7 +16,7 @@ console.log(jcontent.tags);
 var text = "";
 var i;
 for (i = 0; i < jcontent.length; i++) {
-    text += tags[i] + "<br>";
+    text += confidencejson[i] + "<br>";
 }
 // document.getElementById("").innerHTML = text;
 
