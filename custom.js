@@ -7,12 +7,12 @@ var tagjson = jcontent.tags
 console.log(tagjson);
  
 
- for (i = 0; i < tags.length; i++) {
- output.innerHTML = jcontent.tags[i]
+//  for (i = 0; i < tags.length; i++) {
+//  output.innerHTML = jcontent.tags[i]
 
-//  output.innerHTML = tagsjson
+// //  output.innerHTML = tagsjson
 
-  }
+//   }
 
 }
 tags();
