@@ -32,7 +32,7 @@ for (i = 0; i < jcontent.length; i++) {
 
 
 
- text.innerHTML = jcontent.tags[i]
+ text.innerHTML = jcontent.tags[0].confidence
 
  tags();
 }
