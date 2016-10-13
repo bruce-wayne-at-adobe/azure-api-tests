@@ -33,7 +33,7 @@ script for demonstration
 setting up the github pages
 
 
- text.innerHTML = jcontent.tags[0].name.confidence
+ text.innerHTML = jcontent.tags[0].confidence
 
  tags();
 }
