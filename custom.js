@@ -35,10 +35,9 @@ console.log(jcontent.tags);
 
 for (i = 0; i < 3; i++) {
     var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
-    document.getElementById("output").appendChild(a);
+    document.getElementById("output")text.appendChild(a);
 }
 
  //text.innerHTML = jcontent.tags[0].confidence
-
+};
  tags();
-}
