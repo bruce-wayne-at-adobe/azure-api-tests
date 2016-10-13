@@ -13,7 +13,7 @@ var text = document.getElementById('output');
  console.log(namejson);
 
  console.log(jcontent.tags);
- console.log(jcontent2);
+ console.log("this is the jcontent:"jcontent2);
  }
  
  tags();
