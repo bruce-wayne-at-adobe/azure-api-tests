@@ -9,15 +9,77 @@ var tags = function() {
  console.log(confidencejson);
  console.log(namejson);
 
- var str ="";
-for (jcontent.tags in tags) {
- str += jcontent.tags.name + " : " + jcontent.tags.confidence + "<br>";
+
+tags.forEach( function (confidence)
+{
+    var x = confidence. + 2;
+    alert(x);
+});
+
+yourArray.forEach( function (arrayItem)
+{
+    var x = arrayItem.prop1 + 2;
+    alert(x);
+});
+
+var jcontent = [
+  { 
+    name : "Mike",
+    track: "track-a",
+    achievements: 23,
+    points : 400,
+  },
+
+  { 
+    name : "james",
+    track: "track-a",
+    achievements: 2,
+    points : 21,
+  },  
+]
+
+  jcontent.forEach(myFunction);
+
+function myFunction (name, 0) {
+
+  for( var name in jcontent ) {
+    console.log(name[name])
+  }
 }
+// var students = [
+//   { 
+//     name : "Mike",
+//     track: "track-a",
+//     achievements: 23,
+//     points : 400,
+//   },
+
+//   { 
+//     name : "james",
+//     track: "track-a",
+//     achievements: 2,
+//     points : 21,
+//   },  
+// ]
+
+//   students.forEach(myFunction);
+
+// function myFunction (item, index) {
+
+//   for( var key in item ) {
+//     console.log(item[key])
+//   }
+// }
+
+//  var str ="";
+// for (jcontent.tags in tags) {
+//  str += jcontent.tags.name + " : " + jcontent.tags.confidence + "<br>";
+// }
   
   
- output.innerHTML = str;
+//  output.innerHTML = str;
  
-}
+// }
 
 
 //  output.innerHTML = namejson
