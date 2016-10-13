@@ -22,8 +22,7 @@ for (tag in tags) {
 
 //  output.innerHTML = namejson
 
- 
-// tags();
+ tags();
 }
 
 
