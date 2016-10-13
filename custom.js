@@ -6,8 +6,8 @@ var tags = function() {
  var confidencejson = jcontent.tags
  var namejson = jcontent.tags
 
-//  console.log(confidencejson);
-//  console.log(namejson);
+ console.log(confidencejson);
+ console.log(namejson);
 
 
 // tags.forEach( function (confidence)
@@ -20,16 +20,55 @@ var tags = function() {
 // {
 //     var x = arrayItem.prop1 + 2;
 //     alert(x);
-// });
+// 
+
+var jcontent.tags = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+var text = "";
+var i;
+for (i = 0; i < tags.length; i++) {
+    text += tags[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+
+// var jcontent = [
+//   { 
+//     name : "Mike",
+//     track: "track-a",
+//     achievements: 23,
+//     points : 400,
+//   },
+
+//   { 
+//     name : "james",
+//     track: "track-a",
+//     achievements: 2,
+//     points : 21,
+//   },  
+// ]
 
 //   jcontent.forEach(myFunction);
 
-// function myFunction (name, [0]) {
+// function myFunction (name, 0) {
 
 //   for( var name in jcontent ) {
 //     console.log(name[name])
 //   }
 // }
+// var students = [
+//   { 
+//     name : "Mike",
+//     track: "track-a",
+//     achievements: 23,
+//     points : 400,
+//   },
+
+//   { 
+//     name : "james",
+//     track: "track-a",
+//     achievements: 2,
+//     points : 21,
+//   },  
+// ]
 
 //   students.forEach(myFunction);
 
@@ -40,11 +79,16 @@ var tags = function() {
 //   }
 // }
 
+//  var str ="";
+// for (jcontent.tags in tags) {
+//  str += jcontent.tags.name + " : " + jcontent.tags.confidence + "<br>";
+// }
   
   
 //  output.innerHTML = str;
  
-}
+// }
+
 
 //  output.innerHTML = namejson
 
