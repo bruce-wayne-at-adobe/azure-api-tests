@@ -3,7 +3,7 @@ var jcontent = {"categories":[{"name":"people_","score":0.3984375,"detail":{"cel
 var output = document.getElementById('output');
 
 
-output.innerHTML = jcontent.tags[1].name
+output.innerHTML = jcontent.tags[i].each
 // var tags = function() {
 // for (i = 0; i < tags.length; i++) {
 
