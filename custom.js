@@ -11,7 +11,7 @@ for (i = 0; i < tags.length; i++) {
  output.innerHTML = jcontent.tags 
 
 }
-console.log('jcontent is returning =' jcontent.tags)
+console.log('tags)
 }
 tags()
 };
