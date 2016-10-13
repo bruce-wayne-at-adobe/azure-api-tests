@@ -13,10 +13,10 @@ console.log(jcontent.tags);
 // tags.forEach( function (confidence)
 
 // var jcontent.tags = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
-var text = "";
 var i;
 for (i = 0; i < jcontent.length; i++) {
-    text.innerHTML("name: " + jcontent[i].name + ", confidence: " + jcontent[i].confidence);
+    var a = "name: " + jcontent[i].name + ", confidence: " + jcontent[i].confidence
+    text.innerHTML(a);
 }
 // document.getElementById("").innerHTML = text;
 
