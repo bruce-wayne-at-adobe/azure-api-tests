@@ -25,38 +25,30 @@ var text7 = document.getElementById('output7');
  for (i = 0; i < jcontent.tags.length ; i++) {
       var a = jcontent.tags[i].name + ": " + jcontent.tags[i].confidence;
      t.push(a);
-    //text.innerHTML = text.innerHTML + "<br>" + a;
-//    text4.innerHTML = text4.innerHTML + "</br>" + d;
-
-   //var output = document.getElementById('output');
-//       test.append(a);
-
-//text.innerHTML = text.innerHTML + 'jcontent';
   }
     text.innerHTML = t.join("<br />");
- console.log(jcontent)
-  for (i = 0; i < 2; i++) {
-      var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
-         text2.innerHTML = text2.innerHTML + "</br>" + b;   
-   var output2 = document.getElementById('output2') 
-   text2.innerHTML = text2.innerHTML + 'jcontent2';
+
+      t=[];  
+ for (i = 0; i < jcontent2.tags.length ; i++) {
+      var a = jcontent2.tags[i].name + ": " + jcontent2.tags[i].confidence;
+     t.push(a);
   }
- console.log(jcontent2)
-   for (i = 0; i < 1; i++) {
-      var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent3.tags)[i].confidence
-         text3.innerHTML = text3.innerHTML + "</br>" + c;
-      
-   var output3 = document.getElementById('output3')
- 
-   text3.innerHTML = text3.innerHTML + 'jcontent3';
-       console.log(jcontent3);
+    text2.innerHTML = t.join("<br />");
+
+          t=[];  
+ for (i = 0; i < jcontent3.tags.length ; i++) {
+      var a = jcontent3.tags[i].name + ": " + jcontent3.tags[i].confidence;
+     t.push(a);
   }
+    text3.innerHTML = t.join("<br />");
+          t=[];  
+ for (i = 0; i < jcontent4.tags.length ; i++) {
+      var a = jcontent4.tags[i].name + ": " + jcontent4.tags[i].confidence;
+     t.push(a);
+  }
+    text4.innerHTML = t.join("<br />");
+
     
-   for (i = 0; i < 4; i++) {
-      var d = "name: " + (jcontent4.tags)[i].name + ", confidence: " + (jcontent4.tags)[i].confidence
-         text4.innerHTML = text4.innerHTML + "</br>" + d;
-        console.log(jcontent4)   
-  }
       for (i = 0; i < 4; i++) {
       var e = "name: " + (jcontent5.tags)[i].name + ", confidence: " + (jcontent5.tags)[i].confidence
          text5.innerHTML = text5.innerHTML + "</br>" + e;
