@@ -73,11 +73,6 @@ var text7 = document.getElementById('output7');
          text7.innerHTML = text7.innerHTML + "</br>" + g;
         console.log(jcontent7)   
   }
-    document.getElementById("Save").onclick = function fun() {
-        alert("hello");
-        f1();
-        //validation code to see State field is mandatory.  
-    }
     
 //   document.getElementById() function sendFileRequest(file) {
 
