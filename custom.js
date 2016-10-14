@@ -52,15 +52,15 @@ var text3 = document.getElementById('output3');
 text.innerHTML = text.innerHTML + 'jcontent';
   }
  
-  for (i = 0; i < 3; i++) {
-      var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
-         text2.innerHTML = text2.innerHTML + b;
+//   for (i = 0; i < 3; i++) {
+//       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
+//          text2.innerHTML = text2.innerHTML + b;
       
-   var output2 = document.getElementById('output2')
+//    var output2 = document.getElementById('output2')
  
-   text2.innerHTML = text2.innerHTML + 'jcontent2';
-//     text2.appendChild(b);
-  }
+//    text2.innerHTML = text2.innerHTML + 'jcontent2';
+// //     text2.appendChild(b);
+//   }
  console.log('jcontent3')
  console.log(jcontent3)
    for (i = 0; i < 3; i++) {
