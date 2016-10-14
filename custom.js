@@ -57,6 +57,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
    var output3 = document.getElementById('output3')
  
    text3.innerHTML = text3.innerHTML + 'jcontent3';
+       console.log('jcontent3');
 //     text2.appendChild(b);
   }
  //text.innerHTML = jcontent.tags[0].confidence
