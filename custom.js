@@ -8,39 +8,10 @@ var text2 = document.getElementById('output2');
 
 var jcontent3 = {"categories":[{"name":"people_crowd","score":0.484375,"detail":{"celebrities":[]}},{"name":"people_group","score":0.3125}],"tags":[{"name":"person","confidence":0.999496579170227}],"requestId":"2c52e5aa-e16c-4737-87aa-3d7e68c11096","metadata":{"width":2816,"height":2112,"format":"Jpeg"}}
 var text3 = document.getElementById('output3');
-
-// var jcontent4 =
-// var text4 = document.getElementById('output4')
     
-// var jcontent5 =
-// var text5 = document.getElementById('output5')
+var jcontent4 = {"categories":[{"name":"people_","score":0.94921875,"detail":{"celebrities":[]}}],"tags":[{"name":"person","confidence":0.99035865068435669},{"name":"outdoor","confidence":0.99035370349884033},{"name":"woman","confidence":0.902657687664032},{"name":"street","confidence":0.75811612606048584}],"requestId":"abe0e56d-8879-441b-b076-ba1a8da1a092","metadata":{"width":960,"height":1280,"format":"Jpeg"}}
+var text3 = document.getElementById('output4');
 
-// var jcontent6 =
-// var text6 = document.getElementById('output6')
-
-// var jcontent7 =
-// var text7 = document.getElementById('output7') 
-
-
-//  var tags = function() {
-//  var confidencejson = jcontent.tags.name
-//        var namejson = jcontent.tags.confidence
-
-//  }
-//  var tags2 = function() {
-//  var confidencejson = jcontent.tags.name
-//        var namejson = jcontent.tags.confidence
-
-//  }
-//   var tags3 = function() {
-//   var confidencejson = jcontent.tags.name
-//         var namejson = jcontent.tags.confidence
-
-//  }
- 
-//  tags();
-//  tags2();
-//  tags3();
  
  for (i = 0; i < 3 ; i++) {
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
@@ -71,7 +42,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
    var output3 = document.getElementById('output3')
  
    text3.innerHTML = text3.innerHTML + 'jcontent3';
-       console.log('jcontent3');
+       console.log(jcontent4);
 //     text2.appendChild(b);
   }
  //text.innerHTML = jcontent.tags[0].confidence
