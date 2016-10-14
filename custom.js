@@ -23,7 +23,7 @@ var text2 = document.getElementById('output2');
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
     text.innerHTML = text.innerHTML + a;
 //     text.appendChild(a);
-   $('#output').append(jcontent)
+   $('#test').append(jcontent)
   }
  
   for (i = 0; i < 3; i++) {
