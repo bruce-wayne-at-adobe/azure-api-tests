@@ -49,7 +49,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
    console.log(jcontent3)
 //  console.log(jcontent3)
    for (i = 0; i < 4; i++) {
-      var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent4.tags)[i].confidence
+      var c = "name: " + (jcontent4.tags)[i].name + ", confidence: " + (jcontent4.tags)[i].confidence
          text4.innerHTML = text3.innerHTML + c;
       
    var output4 = document.getElementById('output4')
