@@ -14,7 +14,7 @@ var text2 = document.getElementById('output2');
  console.log(namejson);
 
 //  console.log(jcontent);
- console.log("this is the jcontent:"jcontent2);
+//  console.log("this is the jcontent:"jcontent2);
  }
  
  tags();
