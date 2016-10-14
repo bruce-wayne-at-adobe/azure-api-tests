@@ -15,7 +15,7 @@ var text4 = document.getElementById('output4');
  
  for (i = 0; i < 3 ; i++) {
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
-    text.innerHTML = text.innerHTML + "</br> + a;
+    text.innerHTML = text.innerHTML + "</br>" + a;
 
    var output = document.getElementById('output');
 //       test.append(a);
@@ -26,7 +26,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
   for (i = 0; i < 2; i++) {
 //       debugger;
       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
-         text2.innerHTML = text2.innerHTML + "</br> + b;
+         text2.innerHTML = text2.innerHTML + "</br>" + b;
       
    var output2 = document.getElementById('output2')
  
@@ -37,7 +37,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
 //  console.log(jcontent3)
    for (i = 0; i < 1; i++) {
       var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent3.tags)[i].confidence
-         text3.innerHTML = text3.innerHTML + "</br> + c;
+         text3.innerHTML = text3.innerHTML + "</br>" + c;
       
    var output3 = document.getElementById('output3')
  
