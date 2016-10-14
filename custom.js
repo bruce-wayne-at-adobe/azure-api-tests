@@ -7,9 +7,19 @@ var jcontent2 = {"categories":[{"name":"others_","score":0.00390625},{"name":"pe
 var text2 = document.getElementById('output2');
 
 var jcontent3 = {"categories":[{"name":"people_crowd","score":0.484375,"detail":{"celebrities":[]}},{"name":"people_group","score":0.3125}],"tags":[{"name":"person","confidence":0.999496579170227}],"requestId":"2c52e5aa-e16c-4737-87aa-3d7e68c11096","metadata":{"width":2816,"height":2112,"format":"Jpeg"}}
-var text3 = document.getElementById('output3')'
+var text3 = document.getElementById('output3')
 
+// var jcontent4 =
+// var text4 = document.getElementById('output4')
+    
+// var jcontent5 =
+// var text5 = document.getElementById('output5')
 
+// var jcontent6 =
+// var text6 = document.getElementById('output6')
+
+// var jcontent7 =
+// var text7 = document.getElementById('output7') 
 
 
  var tags = function() {
