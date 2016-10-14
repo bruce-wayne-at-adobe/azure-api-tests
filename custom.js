@@ -21,7 +21,7 @@ var text2 = document.getElementById('output2');
    var test = document.getElementById('test');
 //       test.append(a);
 
-test.innerHTML = test.innerHTML ;
+test.innerHTML = test.innerHTML + 'jcontent';
   }
  
   for (i = 0; i < 3; i++) {
