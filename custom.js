@@ -18,7 +18,7 @@ var text2 = document.getElementById('output2');
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
     text.innerHTML = text.innerHTML + a;
 
-   var text = document.getElementById('text');
+   var test = document.getElementById('test');
 //       test.append(a);
 
 test.innerHTML = test.innerHTML + 'jcontent';
