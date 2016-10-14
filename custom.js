@@ -10,7 +10,7 @@ var jcontent3 = {"categories":[{"name":"people_crowd","score":0.484375,"detail":
 var text3 = document.getElementById('output3');
     
 var jcontent4 = {"categories":[{"name":"people_","score":0.94921875,"detail":{"celebrities":[]}}],"tags":[{"name":"person","confidence":0.99035865068435669},{"name":"outdoor","confidence":0.99035370349884033},{"name":"woman","confidence":0.902657687664032},{"name":"street","confidence":0.75811612606048584}],"requestId":"abe0e56d-8879-441b-b076-ba1a8da1a092","metadata":{"width":960,"height":1280,"format":"Jpeg"}}
-var text3 = document.getElementById('output4');
+var text4 = document.getElementById('output4');
 
  
  for (i = 0; i < 3 ; i++) {
