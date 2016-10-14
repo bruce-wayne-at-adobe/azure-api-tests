@@ -21,17 +21,19 @@ var text6 = document.getElementById('output6');
 var jcontent7 = {"categories":[{"name":"people_group","score":0.6328125,"detail":{"celebrities":[]}}],"tags":[{"name":"person","confidence":0.99835050106048584},{"name":"indoor","confidence":0.93220812082290649},{"name":"posing","confidence":0.826675534248352}],"requestId":"75616523-ca5e-47b3-9db4-5b2361138f15","metadata":{"width":2576,"height":1952,"format":"Jpeg"}}
 var text7 = document.getElementById('output7');
     
-    
+  t=[];  
  for (i = 0; i < jcontent.tags.length ; i++) {
-      var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
-    text.innerHTML = text.innerHTML + "<br>" + a;
+      var a = jcontent.tags[i].name + ": " + jcontent.tags[i].confidence;
+     t.push(a);
+    //text.innerHTML = text.innerHTML + "<br>" + a;
 //    text4.innerHTML = text4.innerHTML + "</br>" + d;
 
-   var output = document.getElementById('output');
+   //var output = document.getElementById('output');
 //       test.append(a);
 
-text.innerHTML = text.innerHTML + 'jcontent';
+//text.innerHTML = text.innerHTML + 'jcontent';
   }
+    text.innerHTML = "new content: " + t.join("<br />");
  console.log(jcontent)
   for (i = 0; i < 2; i++) {
       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
