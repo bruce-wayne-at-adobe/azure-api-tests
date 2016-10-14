@@ -49,13 +49,13 @@ text.innerHTML = text.innerHTML + 'jcontent';
    console.log(jcontent3)
 //  console.log(jcontent3)
    for (i = 0; i < 4; i++) {
-      var c = "name: " + (jcontent4.tags)[i].name + ", confidence: " + (jcontent4.tags)[i].confidence
-         text4.innerHTML = text3.innerHTML + c;
+      var d = "name: " + (jcontent4.tags)[i].name + ", confidence: " + (jcontent4.tags)[i].confidence
+         text4.innerHTML = text4.innerHTML + "</br>" + d;
       
-   var output4 = document.getElementById('output4')
+   //var output4 = document.getElementById('output4')
  
-   text4.innerHTML = text4.innerHTML + 'jcontent4';
-       console.log(jcontent4);
+   //text4.innerHTML = text4.innerHTML + 'jcontent4';
+   //    console.log(jcontent4);
 //     text2.appendChild(b);
   }
  //text.innerHTML = jcontent.tags[0].confidence
