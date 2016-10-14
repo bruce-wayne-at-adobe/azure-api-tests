@@ -18,10 +18,12 @@ var text2 = document.getElementById('output2');
  }
  
  tags();
+ 
  for (i = 0; i < 3; i++) {
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
     text.innerHTML = text.innerHTML + a;
-    text.appendChild(a);
+//     text.appendChild(a);
+   $('#output').append(jcontent)
   }
  
   for (i = 0; i < 3; i++) {
