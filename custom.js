@@ -33,7 +33,7 @@ var text7 = document.getElementById('output7');
 
 //text.innerHTML = text.innerHTML + 'jcontent';
   }
-    text.innerHTML = "new content: " + t.join("<br />");
+    text.innerHTML = t.join("<br />");
  console.log(jcontent)
   for (i = 0; i < 2; i++) {
       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
