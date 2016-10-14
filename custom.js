@@ -42,19 +42,19 @@ text.innerHTML = text.innerHTML + 'jcontent';
    var output3 = document.getElementById('output3')
  
    text3.innerHTML = text3.innerHTML + 'jcontent3';
-       console.log(jcontent2);
+       console.log(jcontent3);
 //     text2.appendChild(b);
   }
     
    console.log(jcontent3)
 //  console.log(jcontent3)
    for (i = 0; i < 4; i++) {
-      var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent3.tags)[i].confidence
-         text3.innerHTML = text3.innerHTML + c;
+      var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent4.tags)[i].confidence
+         text4.innerHTML = text3.innerHTML + c;
       
-   var output3 = document.getElementById('output3')
+   var output4 = document.getElementById('output4')
  
-   text3.innerHTML = text3.innerHTML + 'jcontent3';
+   text4.innerHTML = text4.innerHTML + 'jcontent4';
        console.log(jcontent4);
 //     text2.appendChild(b);
   }
