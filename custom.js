@@ -53,6 +53,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
   }
  
   for (i = 0; i < 3; i++) {
+      debugger;
       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
          text2.innerHTML = text2.innerHTML + b;
       
