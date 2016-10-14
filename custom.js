@@ -16,12 +16,12 @@ var text2 = document.getElementById('output2');
  
  for (i = 0; i < 3; i++) {
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
-    test.innerHTML = test.innerHTML + a;
+    text.innerHTML = text.innerHTML + a;
 
-   var test = document.getElementById('test');
+   var test = document.getElementById('output');
 //       test.append(a);
 
-test.innerHTML = test.innerHTML + 'jcontent';
+text.innerHTML = text.innerHTML + 'jcontent';
   }
  
   for (i = 0; i < 3; i++) {
