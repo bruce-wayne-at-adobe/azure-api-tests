@@ -59,6 +59,11 @@ text.innerHTML = text.innerHTML + 'jcontent';
       var e = "name: " + (jcontent5.tags)[i].name + ", confidence: " + (jcontent5.tags)[i].confidence
          text5.innerHTML = text5.innerHTML + "</br>" + e;
         console.log(jcontent5)   
-  } 
+  }
+      for (i = 0; i < 5; i++) {
+      var f = "name: " + (jcontent6.tags)[i].name + ", confidence: " + (jcontent6.tags)[i].confidence
+         text6.innerHTML = text6.innerHTML + "</br>" + f;
+        console.log(jcontent6)   
+  }
 
 };
