@@ -26,6 +26,8 @@ var text2 = document.getElementById('#output2');
 //    $('#test').append(jcontent)
    var test = document.getElementById('#test');
       test.append(a);
+
+test.innerHTML = test.innerHTML + 'jcontent';
   }
  
   for (i = 0; i < 3; i++) {
