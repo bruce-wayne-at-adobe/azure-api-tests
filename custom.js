@@ -15,7 +15,8 @@ var text4 = document.getElementById('output4');
  
  for (i = 0; i < 3 ; i++) {
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
-    text.innerHTML = text.innerHTML + "</br>" + a;
+    text.innerHTML = text.innerHTML + "<br>" + a;
+//    text4.innerHTML = text4.innerHTML + "</br>" + d;
 
    var output = document.getElementById('output');
 //       test.append(a);
