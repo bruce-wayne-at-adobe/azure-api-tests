@@ -60,10 +60,16 @@ text.innerHTML = text.innerHTML + 'jcontent';
          text5.innerHTML = text5.innerHTML + "</br>" + e;
         console.log(jcontent5)   
   }
-      for (i = 0; i < 5; i++) {
+      for (i = 0; i < 4; i++) {
       var f = "name: " + (jcontent6.tags)[i].name + ", confidence: " + (jcontent6.tags)[i].confidence
          text6.innerHTML = text6.innerHTML + "</br>" + f;
         console.log(jcontent6)   
+  }
+  
+      for (i = 0; i < 4; i++) {
+      var g = "name: " + (jcontent7.tags)[i].name + ", confidence: " + (jcontent7.tags)[i].confidence
+         text7.innerHTML = text7.innerHTML + "</br>" + g;
+        console.log(jcontent7)   
   }
 
 };
