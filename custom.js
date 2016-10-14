@@ -30,7 +30,7 @@ test.innerHTML = test.innerHTML + 'jcontent';
       
    var output2 = document.getElementById('output2')
  
-   output2.innerHTML = output2.innerHTML + 'jcontent2';
+   text2.innerHTML = text2.innerHTML + 'jcontent2';
 //     text2.appendChild(b);
   }
  //text.innerHTML = jcontent.tags[0].confidence
