@@ -10,20 +10,14 @@ var text2 = document.getElementById('#output2');
  var confidencejson = jcontent.tags.name
        var namejson = jcontent.tags.confidence
 
-//  console.log(confidencejson);
-//  console.log(namejson);
-
-//  console.log(jcontent);
-//  console.log("this is the jcontent:"jcontent2);
  }
  
  tags();
  
  for (i = 0; i < 3; i++) {
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
-    test.innerHTML = text.innerHTML + a;
-//     text.appendChild(a);
-//    $('#test').append(jcontent)
+    text.innerHTML = text.innerHTML + a;
+
    var test = document.getElementById('test');
 //       test.append(a);
 
@@ -32,9 +26,9 @@ test.innerHTML = test.innerHTML + 'jcontent';
  
   for (i = 0; i < 3; i++) {
       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
-         output2.innerHTML = text2.innerHTML + b;
+         text2.innerHTML = text2.innerHTML + b;
       
-   var text2 = document.getElementById('#output2')
+   var output2 = document.getElementById('output2')
  
     text2.appendChild(b);
   }
