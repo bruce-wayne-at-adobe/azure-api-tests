@@ -33,7 +33,20 @@ text.innerHTML = text.innerHTML + 'jcontent';
    text2.innerHTML = text2.innerHTML + 'jcontent2';
 //     text2.appendChild(b);
   }
- console.log(jcontent3)
+ console.log(jcontent)
+//  console.log(jcontent3)
+   for (i = 0; i < 1; i++) {
+      var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent3.tags)[i].confidence
+         text3.innerHTML = text3.innerHTML + c;
+      
+   var output3 = document.getElementById('output3')
+ 
+   text3.innerHTML = text3.innerHTML + 'jcontent3';
+       console.log(jcontent2);
+//     text2.appendChild(b);
+  }
+    
+   console.log(jcontent3)
 //  console.log(jcontent3)
    for (i = 0; i < 1; i++) {
       var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent3.tags)[i].confidence
