@@ -66,7 +66,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
         console.log(jcontent6)   
   }
   
-      for (i = 0; i < 4; i++) {
+      for (i = 0; i < 3; i++) {
       var g = "name: " + (jcontent7.tags)[i].name + ", confidence: " + (jcontent7.tags)[i].confidence
          text7.innerHTML = text7.innerHTML + "</br>" + g;
         console.log(jcontent7)   
