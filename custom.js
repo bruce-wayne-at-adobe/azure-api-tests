@@ -35,7 +35,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
   }
  console.log(jcontent3)
 //  console.log(jcontent3)
-   for (i = 0; i < 3; i++) {
+   for (i = 0; i < 1; i++) {
       var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent3.tags)[i].confidence
          text3.innerHTML = text3.innerHTML + c;
       
