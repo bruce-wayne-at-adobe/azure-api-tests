@@ -32,6 +32,7 @@ test.innerHTML = test.innerHTML + 'jcontent';
  
   for (i = 0; i < 3; i++) {
       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
+      var text2 = document.getElementById('#output2')
     text2.innerHTML = text2.innerHTML + b;
     text2.appendChild(b);
   }
