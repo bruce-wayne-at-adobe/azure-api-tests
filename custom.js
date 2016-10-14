@@ -24,7 +24,7 @@ var text2 = document.getElementById('#output2');
     text.innerHTML = text.innerHTML + a;
 //     text.appendChild(a);
 //    $('#test').append(jcontent)
-   var test = document.getElementById('#test');
+   var test = document.getElementById('test');
 //       test.append(a);
 
 test.innerHTML = test.innerHTML + 'jcontent';
