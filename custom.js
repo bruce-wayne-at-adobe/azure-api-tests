@@ -22,7 +22,7 @@ var text3 = document.getElementById('output4');
 
 text.innerHTML = text.innerHTML + 'jcontent';
   }
- 
+ console.log(jcontent)
   for (i = 0; i < 2; i++) {
 //       debugger;
       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
@@ -33,7 +33,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
    text2.innerHTML = text2.innerHTML + 'jcontent2';
 //     text2.appendChild(b);
   }
- console.log(jcontent)
+ console.log(jcontent2)
 //  console.log(jcontent3)
    for (i = 0; i < 1; i++) {
       var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent3.tags)[i].confidence
@@ -48,7 +48,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
     
    console.log(jcontent3)
 //  console.log(jcontent3)
-   for (i = 0; i < 1; i++) {
+   for (i = 0; i < 4; i++) {
       var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent3.tags)[i].confidence
          text3.innerHTML = text3.innerHTML + c;
       
