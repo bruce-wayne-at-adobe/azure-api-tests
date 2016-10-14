@@ -22,7 +22,7 @@ var jcontent7 = {"categories":[{"name":"people_group","score":0.6328125,"detail"
 var text7 = document.getElementById('output7');
     
     
- for (i = 0; i < 3 ; i++) {
+ for (i = 0; i < jcontent.tags.length ; i++) {
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
     text.innerHTML = text.innerHTML + "<br>" + a;
 //    text4.innerHTML = text4.innerHTML + "</br>" + d;
