@@ -10,8 +10,8 @@ var text2 = document.getElementById('output2');
  var confidencejson = jcontent.tags.name
        var namejson = jcontent.tags.confidence
 
- console.log(confidencejson);
- console.log(namejson);
+//  console.log(confidencejson);
+//  console.log(namejson);
 
 //  console.log(jcontent);
 //  console.log("this is the jcontent:"jcontent2);
