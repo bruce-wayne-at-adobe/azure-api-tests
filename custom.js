@@ -13,7 +13,7 @@ var text2 = document.getElementById('output2');
  console.log(confidencejson);
  console.log(namejson);
 
- console.log(jcontent);
+//  console.log(jcontent);
  console.log("this is the jcontent:"jcontent2);
  }
  
