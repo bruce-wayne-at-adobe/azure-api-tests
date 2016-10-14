@@ -42,7 +42,7 @@ var text3 = document.getElementById('output3');
 //  tags2();
 //  tags3();
  
- for (i = 0; i < jcontent.length ; i++) {
+ for (i = 0; i < 3 ; i++) {
       var a = "name: " + (jcontent.tags)[i].name + ", confidence: " + (jcontent.tags)[i].confidence
     text.innerHTML = text.innerHTML + a;
 
@@ -52,7 +52,7 @@ var text3 = document.getElementById('output3');
 text.innerHTML = text.innerHTML + 'jcontent';
   }
  
-  for (i = 0; i < jcontent2.length; i++) {
+  for (i = 0; i < 2; i++) {
 //       debugger;
       var b = "name: " + (jcontent2.tags)[i].name + ", confidence: " + (jcontent2.tags)[i].confidence
          text2.innerHTML = text2.innerHTML + b;
@@ -63,7 +63,7 @@ text.innerHTML = text.innerHTML + 'jcontent';
 //     text2.appendChild(b);
   }
  console.log('jcontent3')
- console.log(jcontent3)
+//  console.log(jcontent3)
    for (i = 0; i < 3; i++) {
       var c = "name: " + (jcontent3.tags)[i].name + ", confidence: " + (jcontent3.tags)[i].confidence
          text3.innerHTML = text3.innerHTML + c;
