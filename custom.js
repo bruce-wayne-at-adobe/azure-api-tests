@@ -71,38 +71,43 @@ text.innerHTML = text.innerHTML + 'jcontent';
          text7.innerHTML = text7.innerHTML + "</br>" + g;
         console.log(jcontent7)   
   }
+    document.getElementById("Save").onclick = function fun() {
+        alert("hello");
+        f1();
+        //validation code to see State field is mandatory.  
+    }
+    
+//   document.getElementById() function sendFileRequest(file) {
 
-  function sendFileRequest(file) {
-
-        var params = {
-            // Request parameters
-            "visualFeatures": "Categories,Tags",
-            "details": "Celebrities",
-        };
+//         var params = {
+//             // Request parameters
+//             "visualFeatures": "Categories,Tags",
+//             "details": "Celebrities",
+//         };
       
-        $.ajax({
-            url: "https://api.projectoxford.ai/vision/v1.0/analyze?" + $.param(params),
-            beforeSend: function(xhrObj){
-                // Request headers
-                xhrObj.setRequestHeader("Content-Type","application/octet-stream");
-                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","ef16492357394ee2b719b50fb10cd6c9");
-            },
-            type: "POST",
-            // Request body
-            data: file,
-            processData: false,
-            contentType: "application/octet-stream"
-        })
-        .done(function(data) {
-            alert("success");
-        })
-        .fail(function(jqHQR, status) {
-            alert("error : " + jqHQR + " status " + status);
-        });
+//         $.ajax({
+//             url: "https://api.projectoxford.ai/vision/v1.0/analyze?" + $.param(params),
+//             beforeSend: function(xhrObj){
+//                 // Request headers
+//                 xhrObj.setRequestHeader("Content-Type","application/octet-stream");
+//                 xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","ef16492357394ee2b719b50fb10cd6c9");
+//             },
+//             type: "POST",
+//             // Request body
+//             data: file,
+//             processData: false,
+//             contentType: "application/octet-stream"
+//         })
+//         .done(function(data) {
+//             alert("success");
+//         })
+//         .fail(function(jqHQR, status) {
+//             alert("error : " + jqHQR + " status " + status);
+//         });
 
-}
+// }
 
 
-console.log("checking in from custom!")
+// console.log("checking in from custom!")
     
 };
