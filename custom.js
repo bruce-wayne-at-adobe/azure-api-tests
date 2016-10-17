@@ -99,6 +99,8 @@ var text7 = document.getElementById('output7');
 
 // }
 
+var element = React.createElement(ThumbnailList,options);
+React.render(element, document.querySelector('.container'));
 
 // console.log("checking in from custom!")
     
